@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
-
+#grad {
+margin: 2px;
+background-color: grey;
+background-image: radial-gradient(#e6ebef, #1c87c9, #8ebf42);
+}
 .calculator {
 padding: 10px;
 border-radius: 1em;
@@ -21,7 +25,7 @@ height: 65%;
 }
 
 #btn {
-background-color: #fb0066;
+background-color: #fb0066; 
 }
 
 input[type=button] {
